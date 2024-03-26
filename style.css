@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(236, 255, 182);
+}
+#splash{
+  background-image: url(https://t4.ftcdn.net/jpg/04/07/74/11/360_F_407741127_eZXxBH1BUCLHjxHNkfprktSQE5E8FLrj.jpg);
+  background-size: cover;
+    background-position: center;
+    height: 95%;
+    width: 100%;
+    margin-top: 50px;
+   
+}
+table th {
+  text-align: center;
+}
+#about p{
+      font-size: 21px;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 40px;
+  }
+  #about h2{
+    font-size: 5em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.5),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  }
+  #team h3{
+    font-size: 5em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.5),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  }
+  #team h4{
+    font-size: 25px;
+  }
+  #team h5{
+    font-size: 25px;
+  }
+  #team p{
+          font-size: 19px;
+  }
+  #achieve h6{ 
+    font-size: 5em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.5),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  }

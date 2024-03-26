@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute page </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $(".navbar-nav li").click(function(){
+        $(".navbar-nav li").removeClass("active");
+        $(this).addClass("active");
+      }
+      );
+      $('.navbar-nav a').click(function(event){
+          event.preventDefault();
+          $('html, body').animate({
+              scrollTop: $( $.attr(this, 'href') ).offset().top
+          }, 500);
+      });
+    }
+    );
+
+ </script>
+
+
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+              <span class="navbar-brand" style="font-family:Verdana, Geneva, Tahoma, sans-serif;">VIRAT KHOLI</span>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#team">Teams</a></li>
+                  <li><a href="#achieve">Achievements</a></li>
+                </ul>
+            </div>
+            </div>
+            </nav>
+
+            <a class="anchor" id="home"></a>
+            <div id="splash" class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/220px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg" alt="">
+                </div>
+              </div>
+               <div class="row">
+               <table class="table table-bordered table-hover col-lg-12" style="width: fit-content; margin-left: 38%;">
+                        <thead>
+                         <tr>
+                          <th colspan="2">
+                            <b class="bg-info text-primary">Personal information</b> 
+                          </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Born</td>
+                            <td>5 November 1988 (age 35)
+                              Delhi, India</td>
+                          </tr>
+                          <tr>
+                            <td>Batting</td>
+                            <td>Right-handed</td>
+                          </tr>
+                          <tr>
+                            <td>Relation</td>
+                            <td>Anushkha sharma (wife)</td>
+                          </tr>
+                          <tr>
+                            <td>Website</td>
+                            <td><a href="https://viratkohli.foundation/">viratkohli.foundation</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>   
+                </div>
+            </div>
+            
+ <a class="anchor" href="#about"></a>
+          <div id="about" class="container col-lg-12 text-center ">
+            <h2>About</h2>
+            <hr>
+            <p><b>
+              Virat Kohli[born 5 November 1988] is an Indian international cricketer and the former captain of the Indian national cricket team. He is a right-handed batsman and an occasional medium-fast bowler. He currently represents Royal Challengers Bengaluru in the IPL and Delhi in domestic cricket. Kohli is widely regarded as one of the greatest batsmen in the history of cricket and the best of the 21st century. <br>
+             He holds the record as the highest run-scorer in T20I and IPL, ranks third in ODI, and stands as the fourth-highest in international cricket. <br>
+             He also holds the record for scoring the most centuries in ODI cricket and stands second in the list of most international centuries scored. Kohli was a member of the Indian team that won the 2011 Cricket World Cup, 2013 ICC Champions Trophy, and captained India to win the ICC Test mace three consecutive times in 2017, 2018, and 2019.
+               <br><br>
+            In 2013, Kohli was ranked number one in the ICC rankings for ODI batsmen. In 2015, he achieved the summit of T20I rankings. In 2018, he was ranked top Test batsman, making him the only Indian cricketer to hold the number one spot in all three formats of the game. He is the first player to score 20,000 runs in a decade. In 2020, the International Cricket Council named him the male cricketer of the decade.
+            He has received many accolades for his performances in cricket. He won the ICC ODI Player of the Year award four times in 2012, 2017, 2018, and 2023. He also won the Sir Garfield Sobers Trophy, given to the ICC Cricketer of the Year, on two occasions, in 2017 and 2018 respectively. In 2018, he became the first player to win both ICC ODI and Test Player of the Year awards in the same year. Also, he was named the Wisden Leading Cricketer in the World for three consecutive years, from 2016 to 2018. At the national level, Kohli was honoured with the Arjuna Award in 2013, the Padma Shri in 2017, and India's highest sporting honour, the Khel Ratna award, in 2018.
+            <br><br>In 2018, Time magazine included him on its list of the 100 most influential people in the world. Kohli has been deemed one of the most commercially viable athletes, with estimated earnings of ₹634 crore (US$79 million) in the year 2022.
+          </b> 
+          </p>        
+            </div>
+
+<a class="anchor" href="#team"></a>
+            <div id="team" class="container col-lg-12 text-center ">
+        <h3>Teams</h3>
+        <hr>
+        <div class="row">
+          <div class="col-lg-12">
+            <h4>ROYAL CHALLENGERS BENGALURU</h4>
+             <img src="https://images.hindustantimes.com/img/2021/12/01/550x309/ggg_1638329404636_1638329412771.jfif" alt="" width="400px">
+            <p> Virat Kohli has the record of the highest runs in IPL of all time. In 239 matches and 230 innings, <br>
+              Kohli has scored 7,284 runs at an average of 37.24, with a strike rate of 130.02.
+            <br> His best score is 113. In IPL, Virat Kohli has scored seven centuries and 50 fifties.</p>
+           </div>
+        </div>
+        
+        <div class="row">
+             
+          <div class="col-lg-12">
+            <h5>INDIAN CRICKET TEAM</h5>
+            <div>
+              <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt="" width="400px">
+            </div>
+            <b>TEST's</b>
+            <p>
+              Kohli has played 113 Test matches for India. Averaging 49.16, <br> the 35-year-old has amassed 8,848 runs for the Asian giants in 191 Test innings. <br>
+               The former India skipper has smashed 29 centuries and <br> 30 half-centuries in the longest format of the game.
+            </p>
+              <b>ODIs</b>
+            <p>
+              In 291 ODIs, he has an aggregate of 13,794 runs with 50 centuries at an average of 58.69.
+              <br>On 28 December 2023, in the Boxing Day Test match between India and South Africa <br>
+               during the India tour of South Africa, Kohli achieved a new record of scoring over 2000 runs in international cricket in a calendar year <br> 
+               for the most number of times (7), surpassing Sri Lankan legend Kumar Sangakkara.
+            </p>
+            <b>T20Is</b>
+            
+            <p>
+              Most runs in T20 internationals 4,008 runs.
+             <br> Most Fifty plus scores in the career 38 (including 37 fifties and 1 century).
+              Highest career batting average in T20I 52.73.
+             <br> Fastest to - 3,000 runs (81 innings), 3,500 runs (96 innings).
+              Most player of the match (15 times)and player of the series awards (7 times)
+            </p>
+          </div>
+        </div>
+       </div>
+
+ <a class="anchor" href="#achieve"></a>
+       <div id="achieve" class="container col-lg-12 text-center ">
+        <h6>Achievements</h6>
+        <hr>
+        <div class="col-lg-12">
+          <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/374000/374026.jpg" alt="" width="450px">
+          <pre style="font-size: 15px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            Kohli holds a prominent place in the annals of Indian cricket. He has the distinction of being the only cricketer to have been named the Player 
+            of the Tournament in the T20 World Cup on two separate occasions, in 2014 and 2016. In terms of ODI centuries,he ranks first with 50. He surpassed 
+            Sachin Tendulkar's tally of 49 ODI tons and achieved this feat on 15 November 2023 in the semifinal of the 2023 Cricket.
+            World Cup, while also becoming the first player to score more than 700 runs in a single edition of the tournament. Furthermore, in international 
+            cricket, Kohli has amassed 80 centuries, second only to Sachin Tendulkar's 100 centuries. In 2018, Kohli set a record, becoming the first player 
+            to score 1,000 ODI runs in 11 innings in a calendar year.In 2022, he achieved another milestone by scoring 1,000 runs in the ICC Men's T20 World 
+            Cup, becoming the second player to reach this feat after Mahela Jayawardene. During the match against Bangladesh, he became the top-scorer in the
+            history of T20 World Cup.
+          </pre>
+        </div>
+       
+        <p>
+        <h1> National honours</h1> 
+        <b style="font-size: 20px;">
+          2013 -  Arjuna Award, second highest sporting honour. <br>
+        2017 -  Padma Shri, India's fourth highest civilian award. <br>
+        2018 - Major Dhyan Chand Khel Ratna Award, India's highest sporting honour.
+        </b> 
+<br><br>
+ <h1>Sporting Honours</h1>
+<b style="font-size: 20px;">
+  Sir Garfield Sobers Trophy (ICC Men's Cricketer of the Decade): 2011-2020 <br>
+  Sir Garfield Sobers Trophy (ICC Cricketer of the Year): 2017, 2018 <br>
+  ICC Men's ODI Cricketer of the Decade: 2011-2020 <br>
+  ICC ODI Player of the Year: 2012,2017,2018,2023 <br>
+  ICC Test Player of the Year: 2018. <br>
+  ICC ODI Team of the Year: 2012,2014, 2016 (captain),2017 (captain),2018 (captain),2019 (captain),2023. <br>
+  ICC Test Team of the Year: 2017 (captain), 2018 (captain), 2019 (captain) <br>
+  ICC Men's T20I Team of the Year: 2022 <br>
+  ICC Spirit of Cricket: 2019 <br>
+  ICC Men's Test Team of the Decade: 2011-2020 (captain) <br>
+  ICC Men's ODI Team of the Decade: 2011-2020 <br>
+  ICC Men's T20I Team of the Decade: 2011-2020 <br>
+  Polly Umrigar Award for International Cricketer of the Year: 2011-12, 2014-15, 2015-16, 2016-17, 2017-18 <br>
+  Wisden Leading Cricketer in the World: 2016, 2017, 2018. <br>
+  ICC Men's Player of the Month: October 2022. <br>
+  CEAT International Cricketer of the Year: 2011-12, 2013-14,2017-18, 2018-19. <br>
+  Indian Premier League Orange Cap for most runs: 2016. <br>
+  Barmy Army- International Player of Year: 2017, 2018. <br>
+  ESPNcricinfo-ODI Batting Performance of the Year: 2012.
+</b>
+ <br><br>
+  <h1>Other Honours and Rewards</h1>
+  <b  style="font-size: 20px;">
+   People's Choice Awards India for Favourite Sportsperson: 2012. <br>
+   GQ Sportsman of the year: 2013. <br>
+   CNN-News18 Indian of the Year: 2017. <br>
+   People for the Ethical Treatment of Animals (PETA) India's Person of the Year: 2019. <br>
+   Delhi & District Cricket Association (DDCA) renamed a stand after Kohli at Feroz Shah Kotla, Delhi. <br>
+  </b>
+  </p>
+</div>
+
+ <div class="container-fluid text-center" style="margin-top: 25px;">
+                  <h1>Reference</h1>
+                  <hr>
+            <blockquote>
+                  <p>"As of now Virat Kohli is the Greatest Batsman of the world"</p>
+                  <footer><cite>Former Indian Cricket Captain Saurav Ganguly</cite></footer>
+                </blockquote>
+            <h3>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank">Wikipedia entry</a>.</h3>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <footer class="text-center">
+          <hr>
+          <p>Written and coded by <a href="https://github.com/Manipandy" target="_blank">MANIPANDY R</a>.</p>
+        </footer>  
+      </div>  
+    </div>
+      
+</body>
+</html>
